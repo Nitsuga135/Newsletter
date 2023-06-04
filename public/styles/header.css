@@ -1,0 +1,44 @@
+/*HEADER*/
+
+.container-header-frases{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    margin: 20px 0 10px 0;
+}
+.container-header-frases p{
+    color: var(--gris);
+    font-size: 18px;
+}
+.img-logo{
+     height: 50px;
+    margin-bottom: 20px;
+}
+.img-linea-header{
+    height: 5px;
+    width: 100%;
+}
+/*Globales*/
+header{
+    margin: 20px;
+    
+}
+@media(min-width:769px){
+    /*Globales*/
+    header{
+        margin: 70px;
+    }
+    /*variables*/
+    .container-header-frases{
+        
+        margin:70px 0px 25px 0px ;
+    }
+    .container-header-frases p{
+       font-size: 30px; 
+    }
+    .img-logo{
+       height: 100px;
+    }
+
+   
+}
